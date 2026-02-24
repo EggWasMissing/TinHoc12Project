@@ -1,3 +1,20 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  heigh: 100vh;
+}
+.header{
+  
+}
+.menu{
+  
+}
+.content{
+  
+}
+.footer{
+  
+}
 .tieude {
   color: red;
   font-weight: bold;
