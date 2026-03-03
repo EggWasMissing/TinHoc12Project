@@ -19,8 +19,8 @@
   color: magenta;
 }
 .menu hover{
-  background-color: lightgray;
-  color: black;
+  background-color: red;
+  color: blue;
 }
 .content{
   flex: 70%;
