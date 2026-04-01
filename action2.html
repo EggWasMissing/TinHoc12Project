@@ -4,8 +4,14 @@
     <strong>Cảm ơn bạn đã đăng ký</strong>
   </head>
   <body>
+    <p id="kq"></p>
+    <script>
+      let pp = new URLSearchParams(window.location.search);
+      let ten = pp.get("txtTen");
+      document.getElementById("kq").innerHTML = "Cám ơn bạn" + ten 
+      + " đã góp ý <br><br>Chúng tôi ghi nhận phản hồi của bạn:<br>" ;
+    </script>
     <form action="signup.html">
-      <p>Chúng tôi xin nhận lấy phản hồi của bạn và sẽ đưa cho bạn thông tin mới sớm nhất có thể.</p>
       <input type = "submit" name = "cmd" value="Quay lại">
     </form>
   </body>
